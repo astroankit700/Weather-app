@@ -19,9 +19,7 @@ const app = express();
 //         cllg:'bit'
 //     }]);
 // })
-// app.get('/weather',(req, res)=>{
-//     res.send("<h1> Here's your weather!</h1>");
-// })
+// 
 // app.get('/about',(req, res)=>{
 //     res.send("<h1> About page!</h1>");
 // })
