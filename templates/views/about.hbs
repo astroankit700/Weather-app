@@ -3,12 +3,29 @@
         <title>About</title>
         <link rel="stylesheet" href="/css/style.css">
         <link rel='icon' href="/img/weather.png">
+        <script src="https://kit.fontawesome.com/908c6761fc.js" crossorigin="anonymous"></script>
 
     </head>
     <body>
         <div class="main-content">
         <h1>{{>header}}</h1>
-        <p>{{message}}</p>
+        <span id="about-desc">This site was created by Ankit Agrawal solely for educational purposes.</span>
+        <ul>
+            <li>This app fetches latitudes and longitudes from mapbox.com</li>
+            <li>It then fetches the weather of provided geocodes using weatherstack.com</li>
+        </ul>
+        <h3 id="work-title">Other links:</h3>
+        <div class="logos-div">
+            <div class="logo">  <a href="https://www.facebook.com/profile.php?id=100007029938266" 
+                class="fb-logo" target="_blank"><i class="fab fa-facebook-square"></i></a> </div>
+            <div class="logo">  <a href="https://www.instagram.com/astro_ankit007/" 
+                class="insta-logo" target="_blank"><i class="fab fa-instagram"></i> </a></div>
+            <div class="logo">  <a href="https://www.linkedin.com/in/ankitkumar700/"
+                class="linkedin-logo" target="_blank"><i class="fab fa-linkedin-in"></i></a> </div>
+            <div class="logo"> <a href="https://github.com/astroankit700?tab=repositories"
+                class="git-logo" id="profile-link" target="_blank"><i class="fab fa-github-square"></i></a> </div>
+        </div>
+        
         </div>
         {{>footer}}
 

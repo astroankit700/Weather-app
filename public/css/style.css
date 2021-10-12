@@ -68,3 +68,72 @@ button:hover{
     border-radius: 5px;
     
 }
+
+
+/* for about page  */
+.logos-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    margin: 2rem;
+    margin-top: auto;
+    font-size: 3.5rem
+    /* padding: 2rem auto 2rem auto; */
+
+}
+
+.git-logo:hover
+{
+    color:rgb(32, 23, 23);
+    background-color: white;
+    border-style: solid;
+    border-width:5px;
+    border-radius: 2rem;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+}
+
+.fb-logo:hover {
+    color:rgb(79, 79, 184);
+    background-color: white;
+    border-style: solid;
+    border-width:5px;
+    border-radius: 1.5rem;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+}
+
+.insta-logo:hover {
+    color: rgb(255, 36, 208);
+    background-color: white;
+    border-style: solid;
+    border-width:5px;
+    border-radius: 2rem;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+}
+
+.linkedin-logo:hover {
+    color: rgb(24, 24, 128);
+    background-color: white;
+    border-style: solid;
+    border-width:5px;
+    border-radius: 2rem;
+    border-color: white;
+    border-top: none;
+    border-bottom: none;
+}
+
+.logo > a{
+    font-size: 2rem;
+}
+
+#about-desc{
+    font-size: 1.25rem;
+}
